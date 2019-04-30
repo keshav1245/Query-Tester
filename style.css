@@ -1,0 +1,93 @@
+.container{
+	width: 100%;
+}
+.container h1{
+	text-align: center;
+}
+
+.container .row{
+	width: 40%;
+	margin: auto;
+	justify-content: center;
+}
+
+.col-25{
+	width: 25%;
+	float: left;
+	display: block;
+}
+.col-50{
+	width: 50%;
+	display: block;
+	float: left;
+}
+.col-75{
+	width: 75%;
+	float: left;
+	display: block;
+}
+form:after{
+	display: table;
+	content : "";
+	clear: both;
+}
+label{
+	font-weight: bold;
+}
+.colwrap:after{
+	display: table;
+	content: '';
+	float: left;
+}
+.col-75  p{
+	color: grey;
+	font-size: 12px;
+}
+
+.conndisplay:after{
+	display: table;
+	content: '';
+	clear: both;
+}
+.sqltable {
+	border: 2px solid gray;
+	border-collapse: collapse;
+	caption-side: bottom;
+	float: left;
+	font-size: smaller;
+	margin-left: 10px;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+}
+
+.sqltable,
+.sqltable caption {
+	
+	font-size: smaller;
+	text-align: left;
+}
+
+.sqltable caption {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.sqltable td,
+.sqltable th {
+	border: 2px solid gray;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+th {
+	background-color: #EEEEEE;
+}
+
+.sqltable td * {
+	vertical-align: top;
+}
+
+.sqlwide td,
+.sqlwide th {
+	width: 30%;
+}
